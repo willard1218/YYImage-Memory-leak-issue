@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		211BC37365C32CE878088C7B /* libPods-YYImage-Memory-leak-issue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B576668A922055C81265E79 /* libPods-YYImage-Memory-leak-issue.a */; };
+		5C1C28A92038F12F003CF2D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C28A82038F12F003CF2D3 /* AppDelegate.m */; };
+		5C1C28AC2038F12F003CF2D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C28AB2038F12F003CF2D3 /* ViewController.m */; };
+		5C1C28AF2038F12F003CF2D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1C28AD2038F12F003CF2D3 /* Main.storyboard */; };
+		5C1C28B12038F12F003CF2D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C1C28B02038F12F003CF2D3 /* Assets.xcassets */; };
+		5C1C28B42038F12F003CF2D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1C28B22038F12F003CF2D3 /* LaunchScreen.storyboard */; };
+		5C1C28B72038F12F003CF2D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C28B62038F12F003CF2D3 /* main.m */; };
+		5C1C28BE2038F2A6003CF2D3 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1C28BD2038F2A6003CF2D3 /* 1.png */; };
+		5C1C28C62039176E003CF2D3 /* NSMutableData+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C28C52039176E003CF2D3 /* NSMutableData+Helper.m */; };
+		5C1C28C9203939C2003CF2D3 /* NSData+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C28C8203939C2003CF2D3 /* NSData+Helper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07C5AC2353DDAC4B263B64AD /* Pods-YYImage-Memory-leak-issue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYImage-Memory-leak-issue.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYImage-Memory-leak-issue/Pods-YYImage-Memory-leak-issue.release.xcconfig"; sourceTree = "<group>"; };
+		5B576668A922055C81265E79 /* libPods-YYImage-Memory-leak-issue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYImage-Memory-leak-issue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1C28A42038F12F003CF2D3 /* YYImage-Memory-leak-issue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YYImage-Memory-leak-issue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1C28A72038F12F003CF2D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C1C28A82038F12F003CF2D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C1C28AA2038F12F003CF2D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C1C28AB2038F12F003CF2D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C1C28AE2038F12F003CF2D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C1C28B02038F12F003CF2D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C1C28B32038F12F003CF2D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C1C28B52038F12F003CF2D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1C28B62038F12F003CF2D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C1C28BD2038F2A6003CF2D3 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		5C1C28C42039176E003CF2D3 /* NSMutableData+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+Helper.h"; sourceTree = "<group>"; };
+		5C1C28C52039176E003CF2D3 /* NSMutableData+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+Helper.m"; sourceTree = "<group>"; };
+		5C1C28C7203939C2003CF2D3 /* NSData+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Helper.h"; sourceTree = "<group>"; };
+		5C1C28C8203939C2003CF2D3 /* NSData+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Helper.m"; sourceTree = "<group>"; };
+		A6421B8BC518D7E65E1D4CBC /* Pods-YYImage-Memory-leak-issue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYImage-Memory-leak-issue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYImage-Memory-leak-issue/Pods-YYImage-Memory-leak-issue.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C1C28A12038F12F003CF2D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211BC37365C32CE878088C7B /* libPods-YYImage-Memory-leak-issue.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C1C289B2038F12F003CF2D3 = {
+			isa = PBXGroup;
+			children = (
+				5C1C28A62038F12F003CF2D3 /* YYImage-Memory-leak-issue */,
+				5C1C28A52038F12F003CF2D3 /* Products */,
+				99F8AD0FBBC435724C0C1316 /* Pods */,
+				63981896435D7B625F28CA36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C1C28A52038F12F003CF2D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C1C28A42038F12F003CF2D3 /* YYImage-Memory-leak-issue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C1C28A62038F12F003CF2D3 /* YYImage-Memory-leak-issue */ = {
+			isa = PBXGroup;
+			children = (
+				5C1C28C7203939C2003CF2D3 /* NSData+Helper.h */,
+				5C1C28C8203939C2003CF2D3 /* NSData+Helper.m */,
+				5C1C28C42039176E003CF2D3 /* NSMutableData+Helper.h */,
+				5C1C28C52039176E003CF2D3 /* NSMutableData+Helper.m */,
+				5C1C28BD2038F2A6003CF2D3 /* 1.png */,
+				5C1C28A72038F12F003CF2D3 /* AppDelegate.h */,
+				5C1C28A82038F12F003CF2D3 /* AppDelegate.m */,
+				5C1C28AA2038F12F003CF2D3 /* ViewController.h */,
+				5C1C28AB2038F12F003CF2D3 /* ViewController.m */,
+				5C1C28AD2038F12F003CF2D3 /* Main.storyboard */,
+				5C1C28B02038F12F003CF2D3 /* Assets.xcassets */,
+				5C1C28B22038F12F003CF2D3 /* LaunchScreen.storyboard */,
+				5C1C28B52038F12F003CF2D3 /* Info.plist */,
+				5C1C28B62038F12F003CF2D3 /* main.m */,
+			);
+			path = "YYImage-Memory-leak-issue";
+			sourceTree = "<group>";
+		};
+		63981896435D7B625F28CA36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B576668A922055C81265E79 /* libPods-YYImage-Memory-leak-issue.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99F8AD0FBBC435724C0C1316 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6421B8BC518D7E65E1D4CBC /* Pods-YYImage-Memory-leak-issue.debug.xcconfig */,
+				07C5AC2353DDAC4B263B64AD /* Pods-YYImage-Memory-leak-issue.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C1C28A32038F12F003CF2D3 /* YYImage-Memory-leak-issue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1C28BA2038F12F003CF2D3 /* Build configuration list for PBXNativeTarget "YYImage-Memory-leak-issue" */;
+			buildPhases = (
+				C61A8A43219DD3D2112F5DA8 /* [CP] Check Pods Manifest.lock */,
+				5C1C28A02038F12F003CF2D3 /* Sources */,
+				5C1C28A12038F12F003CF2D3 /* Frameworks */,
+				5C1C28A22038F12F003CF2D3 /* Resources */,
+				40291FE110EC008871D94C45 /* [CP] Embed Pods Frameworks */,
+				AE55D9345A32398215F8E711 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YYImage-Memory-leak-issue";
+			productName = "YYImage-Memory-leak-issue";
+			productReference = 5C1C28A42038F12F003CF2D3 /* YYImage-Memory-leak-issue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C1C289C2038F12F003CF2D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = willard;
+				TargetAttributes = {
+					5C1C28A32038F12F003CF2D3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5C1C289F2038F12F003CF2D3 /* Build configuration list for PBXProject "YYImage-Memory-leak-issue" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C1C289B2038F12F003CF2D3;
+			productRefGroup = 5C1C28A52038F12F003CF2D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C1C28A32038F12F003CF2D3 /* YYImage-Memory-leak-issue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C1C28A22038F12F003CF2D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1C28B42038F12F003CF2D3 /* LaunchScreen.storyboard in Resources */,
+				5C1C28B12038F12F003CF2D3 /* Assets.xcassets in Resources */,
+				5C1C28BE2038F2A6003CF2D3 /* 1.png in Resources */,
+				5C1C28AF2038F12F003CF2D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40291FE110EC008871D94C45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYImage-Memory-leak-issue/Pods-YYImage-Memory-leak-issue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE55D9345A32398215F8E711 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYImage-Memory-leak-issue/Pods-YYImage-Memory-leak-issue-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C61A8A43219DD3D2112F5DA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YYImage-Memory-leak-issue-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C1C28A02038F12F003CF2D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1C28C62039176E003CF2D3 /* NSMutableData+Helper.m in Sources */,
+				5C1C28C9203939C2003CF2D3 /* NSData+Helper.m in Sources */,
+				5C1C28AC2038F12F003CF2D3 /* ViewController.m in Sources */,
+				5C1C28B72038F12F003CF2D3 /* main.m in Sources */,
+				5C1C28A92038F12F003CF2D3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C1C28AD2038F12F003CF2D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C1C28AE2038F12F003CF2D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C1C28B22038F12F003CF2D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C1C28B32038F12F003CF2D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C1C28B82038F12F003CF2D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C1C28B92038F12F003CF2D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C1C28BB2038F12F003CF2D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6421B8BC518D7E65E1D4CBC /* Pods-YYImage-Memory-leak-issue.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "YYImage-Memory-leak-issue/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "willard.YYImage-Memory-leak-issue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C1C28BC2038F12F003CF2D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C5AC2353DDAC4B263B64AD /* Pods-YYImage-Memory-leak-issue.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "YYImage-Memory-leak-issue/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "willard.YYImage-Memory-leak-issue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C1C289F2038F12F003CF2D3 /* Build configuration list for PBXProject "YYImage-Memory-leak-issue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1C28B82038F12F003CF2D3 /* Debug */,
+				5C1C28B92038F12F003CF2D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1C28BA2038F12F003CF2D3 /* Build configuration list for PBXNativeTarget "YYImage-Memory-leak-issue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1C28BB2038F12F003CF2D3 /* Debug */,
+				5C1C28BC2038F12F003CF2D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C1C289C2038F12F003CF2D3 /* Project object */;
+}
